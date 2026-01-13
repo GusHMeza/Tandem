@@ -6,6 +6,15 @@
 2. 8 Gb of eMMC
 3. 1 X Gigabit Ethernet
 4. 1 X USB 2.0 (USB On-the-go compatible)
+5. JTAG interface.
+
+**Power architecture:**
+
+1. 5VDC 2A input
+2. 4 X Buck converters at different voltage output levels.
+
+**Other features:**
+1. 2 X Mezzanine connectors to break out most of the I/O from the ZYNQ 7000.
 
 _As the final deliverable to complete FEDEVEL: High Speed Digital Hardware Design course by instructor Phil Salmony._
 
