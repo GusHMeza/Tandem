@@ -1,6 +1,7 @@
 # Tandem
-Xilinx ZYNQ 7000 based compute module
-Hardware peripherals:
+**Xilinx ZYNQ 7000 based compute module.**
+
+**Hardware peripherals:**
 1. 2 X DDR3L (16-bit wide data bus)
 2. 8 Gb of eMMC
 3. 1 X Gigabit Ethernet
