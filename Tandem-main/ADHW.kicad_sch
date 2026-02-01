@@ -1,0 +1,743 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "057baa86-43b1-44fa-acf3-4caef14d0f52")
+	(paper "A3")
+	(title_block
+		(title "TOP LEVEL PAGE")
+		(date "2025-10-06")
+		(rev "A")
+		(company "GHM")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 97.79 132.334)
+		(end 104.14 138.684)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 0 0 1)
+		)
+		(uuid 095d049b-8d56-462f-a2c6-25320d0fdbd9)
+	)
+	(rectangle
+		(start 97.79 157.48)
+		(end 104.14 163.83)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 255 1)
+		)
+		(uuid 0cd33981-997a-4ee0-885a-a22ddf7e1e41)
+	)
+	(rectangle
+		(start 97.79 119.634)
+		(end 104.14 125.984)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 132 0 132 1)
+		)
+		(uuid 3548180e-d9f5-4eb6-9fb6-4962e07bb571)
+	)
+	(rectangle
+		(start 97.79 106.934)
+		(end 104.14 113.284)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 194 194 194 1)
+		)
+		(uuid 56a1cebb-b65c-4469-b031-b09ae1da81a1)
+	)
+	(rectangle
+		(start 97.79 170.18)
+		(end 104.14 176.53)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 153 0 1)
+		)
+		(uuid 6d5412d3-5305-45a8-a67f-a448c0232553)
+	)
+	(rectangle
+		(start 97.79 145.034)
+		(end 104.14 151.384)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 132 0 1)
+		)
+		(uuid a63d1e72-8d16-4f54-b6ce-7c0701df6d6b)
+	)
+	(text "ZYNQ 7000 SOC"
+		(exclude_from_sim no)
+		(at 118.872 161.036 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "1d040a27-cd4e-4eb2-85d2-e611e5d89bb9")
+	)
+	(text "MEMORY"
+		(exclude_from_sim no)
+		(at 112.776 148.59 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "44abcec0-d4ce-4ace-8dd0-46abad750b3f")
+	)
+	(text "CONNECTORS"
+		(exclude_from_sim no)
+		(at 115.57 110.49 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "6f506e60-ec74-452c-b325-668235589b9c")
+	)
+	(text "SIMLUATIONS\n"
+		(exclude_from_sim no)
+		(at 115.824 173.99 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "a0970d00-fe02-4520-8dcd-8e004a6dcc47")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 111.76 135.636 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "bade0cfc-22a6-4a03-8a75-7b8a45b4cc08")
+	)
+	(text "USER CONFIGURABLE"
+		(exclude_from_sim no)
+		(at 121.412 122.936 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+			)
+		)
+		(uuid "e796aa3c-8eab-4b48-b2fb-f37733d82a8e")
+	)
+	(polyline
+		(pts
+			(xy 229.87 139.7) (xy 254 139.7)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "0699580c-6fc3-4132-9c8f-b663c3631d08")
+	)
+	(polyline
+		(pts
+			(xy 223.52 118.11) (xy 223.52 135.89)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "077da00d-fcbc-435e-9c1a-5fb574aa580c")
+	)
+	(polyline
+		(pts
+			(xy 200.66 139.7) (xy 217.17 139.7)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "1aed95c7-46e3-49dd-ab01-d61bd2482fa4")
+	)
+	(polyline
+		(pts
+			(xy 168.91 139.7) (xy 187.96 139.7)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "1e9206b0-e1c0-482c-8698-595f61760989")
+	)
+	(polyline
+		(pts
+			(xy 223.52 143.51) (xy 223.52 161.29)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "2006e981-fa95-4cf0-a228-249cb7d9bcd1")
+	)
+	(polyline
+		(pts
+			(xy 247.65 153.67) (xy 278.13 153.67)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "3a740848-eb39-45b4-ba97-1a918d2161a5")
+	)
+	(polyline
+		(pts
+			(xy 278.13 139.7) (xy 278.13 153.67)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "3d811101-aec1-4166-81ba-be7d0f187b69")
+	)
+	(polyline
+		(pts
+			(xy 247.65 139.7) (xy 247.65 153.67)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "6e8c4b8b-d7fc-43d3-8035-ce4d3fad7025")
+	)
+	(polyline
+		(pts
+			(xy 278.13 139.7) (xy 288.29 139.7)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "810e2090-bd29-46e5-829e-308cef0f2d7a")
+	)
+	(polyline
+		(pts
+			(xy 229.87 165.1) (xy 255.27 165.1)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "af934940-2b3b-4e1e-9e67-3821198cd7dc")
+	)
+	(polyline
+		(pts
+			(xy 229.87 114.3) (xy 254 114.3)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "b039b4e3-29d3-4a14-8290-3558f5079762")
+	)
+	(polyline
+		(pts
+			(xy 168.91 91.44) (xy 186.69 91.44)
+		)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(uuid "c4e71839-f33a-4048-b5a8-fa0c94f4f2e9")
+	)
+	(sheet
+		(at 187.96 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 0 132 1.0000)
+		)
+		(uuid "0af5fadc-0ed8-410c-a51f-1bd6c53c93af")
+		(property "Sheetname" "Zynq Programmable Logic"
+			(at 187.96 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Prog_logic.kicad_sch"
+			(at 187.96 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "2021b965-f907-4878-9a71-fec1fe02990a")
+		(property "Sheetname" "Gigabit Ethernet"
+			(at 254 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GB_Eth.kicad_sch"
+			(at 254 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 87.63)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 0 0 1.0000)
+		)
+		(uuid "20a52f4a-81de-42c4-b295-030ec8fe0cc7")
+		(property "Sheetname" "Zynq PWR"
+			(at 156.21 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_main.kicad_sch"
+			(at 156.21 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 87.63)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 0 0 1.0000)
+		)
+		(uuid "31b4a0ce-07aa-4685-bd7e-625d3fdf5856")
+		(property "Sheetname" "Zynq PWR and Decoupling"
+			(at 186.436 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PWR_and_caps.kicad_sch"
+			(at 186.69 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 255 1.0000)
+		)
+		(uuid "45ae805c-c053-4234-b192-3189951875da")
+		(property "Sheetname" "Zynq Processing System"
+			(at 225.552 134.6704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uP.kicad_sch"
+			(at 225.298 130.556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 255.27 161.29)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 1.0000)
+		)
+		(uuid "57e3ce2e-1122-47b9-8ed8-167ba245f3c9")
+		(property "Sheetname" "1GB DDR3 Module"
+			(at 255.27 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR3_block.kicad_sch"
+			(at 255.27 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 254 110.49)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "70f6d3a0-f1b3-45ff-a4e4-05b6b5b38c5a")
+		(property "Sheetname" "Zynq JTAG progammer and USB to UART"
+			(at 254 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Conf_Jtag_Dbg.kicad_sch"
+			(at 254 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 161.29)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 0 1.0000)
+		)
+		(uuid "74c2ea1b-4e9b-4f52-b39f-996887f529bd")
+		(property "Sheetname" "Zynq DDR and termination"
+			(at 217.678 173.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DDR_term.kicad_sch"
+			(at 217.17 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "87eb7bf4-e622-4c6a-b6ad-c3e87e81756e")
+		(property "Sheetname" "USB 2.0 OTG"
+			(at 288.29 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_2_HS.kicad_sch"
+			(at 288.29 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 110.49)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 132 0 132 1.0000)
+		)
+		(uuid "ea2032c5-075b-4c39-8f42-2b5af7b77561")
+		(property "Sheetname" "Zynq Boot mode and JTAG"
+			(at 225.044 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 225.044 105.6136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 135.89)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "fe026b20-a69e-4b5e-950b-da5f84ebee87")
+		(property "Sheetname" "Mezzanine Connectors"
+			(at 156.21 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mezz_Conns.kicad_sch"
+			(at 156.21 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADHW"
+				(path "/057baa86-43b1-44fa-acf3-4caef14d0f52"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
