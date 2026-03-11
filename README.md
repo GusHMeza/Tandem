@@ -47,16 +47,16 @@ Back
 
 **Target interconnects & requirements**
 
+DDR Gen 3 memory bus
 
-DDR memory (this is the only interface that required careful SI analysis
-
-Length: 1-2 in.
-
-Layers:
-
-
+<img width="414" height="97" alt="image" src="https://github.com/user-attachments/assets/88ffb947-2d0c-44e2-a3ce-154f3c3b067f" />
 
 **Impedance control strategy**
+
+DDR Gen 3 drivers
+
+<img width="264" height="241" alt="image" src="https://github.com/user-attachments/assets/110f8c36-8693-4d53-a8e5-cebca109f752" />
+
 
 
 **Stackup selection**
