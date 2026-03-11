@@ -1,22 +1,39 @@
 # Tandem
-**Xilinx ZYNQ 7000 based compute module.**
-
-**Hardware peripherals:**
-1. 2 X DDR3L (16-bit wide data bus)
-2. 8 Gb of eMMC
-3. 1 X Gigabit Ethernet
-4. 1 X USB 2.0 (USB On-the-go compatible)
-5. JTAG interface.
-
-**Power architecture:**
-
-1. 5VDC 2A input
-2. 4 X Buck converters at different voltage output levels.
-
-**Other features:**
-1. 2 X Mezzanine connectors to break out most of the I/O from the ZYNQ 7000.
+**Xilinx ZYNQ 7000 based compute module**
+Work in progress 🛠
 
 _As the final deliverable to complete FEDEVEL: High Speed Digital Hardware Design course by instructor Phil Salmony._
+
+Since form factor was free to chose, I picked 150x100 mm or less as a target based on a rough estimate of how big of a rectangle could fit all the components and went from there. Next, worked my way through layout with rough calculations to get a sense of interconnect length and layer distribution and finally refined the design based on detailed calculations and simulation work. 
+
+**Compute power**
+
+Xilinx Zynq 7000 series SoC, Part Number: 
+
+**Comunications & Networking:**
+
+1 X Gigabit Ethernet
+
+1 X USB 2.0 (USB On-the-go compatible)
+
+**Configuration**
+
+1 X JTAG interface
+
+**Memory**
+
+2 X DDR Gen 3 low power (16-bit wide data bus) components
+
+1 X 8 Gb of eMMC component
+
+**Power** 
+
+10W (5V) power supply
+
+**Expansion connectors**
+
+2 X Mezzanine connectors (break out some I/O from the Zynq 7000)
+
 
 Front
 
@@ -26,7 +43,34 @@ Back
 
 <img width="762" height="564" alt="image" src="https://github.com/user-attachments/assets/389d7ed5-5b39-48fc-bd46-af98ceaedce5" />
 
-# Crosstalk verification (work in progress)
+# Signal Integrity
+
+**Target interconnects & requirements**
+
+
+DDR memory (this is the only interface that required careful SI analysis
+
+Length: 1-2 in.
+
+Layers:
+
+
+
+**Impedance control strategy**
+
+
+**Stackup selection**
+
+
+**Loss characterization**
+
+
+**Crosstalk estimations**
+
+
+**Quoting**
+
+
 
 <img width="1107" height="257" alt="image" src="https://github.com/user-attachments/assets/c36eaf12-419a-498e-9522-740d7f5a260d" />
 
@@ -36,7 +80,7 @@ Back
 
 <img width="735" height="383" alt="image" src="https://github.com/user-attachments/assets/1795a6c5-f55d-49fa-91cd-4898e94a7fb4" />
 
-# Some views of the copper layers
+# Layout
 
 <img width="1180" height="857" alt="image" src="https://github.com/user-attachments/assets/2a90e0fe-653a-403d-8aaf-c53fe55d8f71" />
 
