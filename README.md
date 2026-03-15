@@ -47,21 +47,34 @@ Back
 
 **Target interconnects & requirements**
 
-DDR Gen 3 memory bus. Driver characteristics below.
+The PCB deisgn is mainly driven by the DDR Gen 3 single-ended signals and differential clocks as they have have the highest speed requirements. The selected stackup shall also accomodate a Gigabit Ethernet transciever, with 1 GHz differencial signaling, and a USB PHY close to the SoC.
 
+| Timing Parameters |  |
+| --- | --- |
+| Transfer rate | 1886 MT/s |
+| Clock rate | 0.9 GHz |
+| Signal period | 1ns period |
 
+| DDR drivers | | |
+| --- | --- | --- |
+| Static discipline | Unit/note ||
+| VTT | 0.675 |V|
+| Vih(ac) | 135 mV |above VTT|
+| Vil(ac) | -135 mV |below VTT|
+| --- | --- | --- |
+| Specification | Unit ||
+| C @ 1 GHz | 2 |pF|
+| Over/under shoot | 0.1 |V/ns|
+| Single ended slew rate max | 5 |V/ns|
 
-
-
-**Impedance control strategy**
-
-DDR Gen 3 drivers
-
-<img width="264" height="241" alt="image" src="https://github.com/user-attachments/assets/110f8c36-8693-4d53-a8e5-cebca109f752" />
-
-
+| Driver output impedance | | |
+| --- | --- | --- |
+| Zo | Unit |Note|
+| 34.3 | Ohms |Default|
+| 40 | Ohms |Alternate|
 
 **Stackup selection**
+
 
 
 **Loss characterization**
