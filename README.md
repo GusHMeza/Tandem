@@ -47,9 +47,11 @@ Back
 
 **Target interconnects & requirements**
 
-DDR Gen 3 memory bus
+DDR Gen 3 memory bus. Driver characteristics below.
 
-<img width="414" height="97" alt="image" src="https://github.com/user-attachments/assets/88ffb947-2d0c-44e2-a3ce-154f3c3b067f" />
+
+
+
 
 **Impedance control strategy**
 
