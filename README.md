@@ -86,13 +86,13 @@ The layer assignment goes as below, and the expected characteristic impedances o
 
 **Loss characterization**
 
-Two package models were developed for the Zync 7000, one considering a generic 25 um Au wire bond on a worst case length for the 17x17mm package and another one considering 90um C4 bumps. An online calculator was used to approximate RLC values for these structures, and the channel was simulated in QUCS.
+Two package models were developed for the Zynq 7000, one considering a generic 25 um Au wire bond on a worst case length for the 17x17mm package and another one considering 90um C4 bumps with a package via in series. An online calculator was used to approximate RLC values for these structures, and the channel was simulated in SPICE software that offest S-parameter visualization (QUCS).
 
-Using the 1st package model (typically used in low speed I/O)
+1st package model (generic wire-bond package technology)
 
 <img width="895" height="655" alt="image" src="https://github.com/user-attachments/assets/5a1fa145-b338-4501-92b0-a2f5d718b320" />
 
-Using the 2nd package model (typically used for higher speed signals)
+2nd package model (C4 bumps used on higher speed packages)
 
 <img width="877" height="636" alt="image" src="https://github.com/user-attachments/assets/81173986-be1c-41b2-9e1c-a92797900233" />
 
@@ -113,7 +113,7 @@ To verify if this is a feasible design, the loss budget is calculated below.
 | 0.54 | V |Vdd-Vhigh = V_loss margin|
 | -0.9691 | dB |10*log10(V_loss margin / VTT)|
 
-Per the calculations above, singal loss of -0.498 dB is within the loss budget of -0.9691 dB, assuming the IC package uses C4 bumps.
+Per the calculations above, singal loss @ 1 GHz is of -0.498 dB is within the loss budget of -0.9691 dB, assuming the IC package uses C4 bumps type packaging.
 
 **Crosstalk estimations**
 
