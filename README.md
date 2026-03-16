@@ -117,7 +117,9 @@ To verify if this is a feasible design, the loss budget is calculated below.
 | 0.54 | V |Vdd-Vhigh = V_loss margin|
 | -0.9691 | dB |10*log10(V_loss margin / VTT)|
 
-Per the calculations above, singal loss @ 1 GHz is of -0.498 dB is within the loss budget of -0.9691 dB, assuming the IC package uses C4 bumps type packaging.
+On DDR the voltage fluctutates between VTT and either rail. For a HIGH bit, the voltage will fluctuate from VTT to VDD, and has to cross Vhigh (ac) specified on the data sheet for it to be on the right amplitude. Therefore, the margin between 0.81 V (VTT + 135mV) and VDD is 0.54 V. This is considered to be the loss margin, which relative to VTT (which is VDD/2) is -0.9691 dB.
+
+Per the calculations above, singal loss @ 1 GHz is of -0.498 dB and is within the loss budget of -0.9691 dB. Assuming the IC package uses C4 bumps type packaging and the cylindrical wire model is accurate (as a solder ball after reflow becomes a truncated sphere on both sides), the singl ended channel design is feasible to transmit the DDR single ended signals. 
 
 **Crosstalk estimations**
 
