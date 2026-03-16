@@ -80,6 +80,10 @@ The standard 10L PCB build-up from PCB way was selected, as their overall pricin
 <img width="470" height="1249" alt="image" src="https://github.com/user-attachments/assets/10b3ddf7-4f45-4a70-ad24-1cfabd29cc03" />
 
 The layer assignment goes as below, and the expected characteristic impedances obtained from it were calculated using a spreadsheet and the formulae from Hall S., Hall G. and McCall J., High Speed Digital System Design, 2001, Wiley.
+
+Layer assignment considers the DDR control signals are routed more towards the back side of the board as termination resitors are placed on the back side of the board and this layer assignment offers a logical channel architecture. The control signals are intended to have a GND plane above and below to maximize SI. 
+
+DDR data signals are routed on the top layer to obtain faster propagation due to having no dielectric material above, as well as to allocate them sufficient space for them to fan out as needed. Routing DDR data and DDR control lines on the same layer seemed impractical as they are difficul to fan out given the current pin assignment on the CLG400 package.
   
 <img width="1435" height="639" alt="image" src="https://github.com/user-attachments/assets/ac9d0ee5-4f5b-4ac2-a8b3-3d87c38d6255" />
 
