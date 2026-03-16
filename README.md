@@ -135,9 +135,18 @@ This is work in progress...
 
 # Layout
 
-<img width="1180" height="857" alt="image" src="https://github.com/user-attachments/assets/2a90e0fe-653a-403d-8aaf-c53fe55d8f71" />
+DDR data signals on L1
 
-<img width="1174" height="855" alt="image" src="https://github.com/user-attachments/assets/49087f6a-c42f-45ef-8432-3d9793129d63" />
+<img width="675" height="605" alt="image" src="https://github.com/user-attachments/assets/192019ab-95db-4b61-bb5c-11efec2d1ca0" />
+
+DDR control signals on layers 6, 8 and 10.
+
+<img width="708" height="476" alt="image" src="https://github.com/user-attachments/assets/d890d93e-fbb5-4b6f-a86b-c1d438b1b8f7" />
+
+<img width="774" height="470" alt="image" src="https://github.com/user-attachments/assets/a583def0-12ce-43a8-be27-6503245e14d5" />
+
+<img width="826" height="602" alt="image" src="https://github.com/user-attachments/assets/c9bc81cd-1d74-4635-928e-cc0b4f9bc02e" />
+
 
 
 
