@@ -150,5 +150,40 @@ DDR control signals on layers 6, 8 and 10.
 <img width="826" height="602" alt="image" src="https://github.com/user-attachments/assets/c9bc81cd-1d74-4635-928e-cc0b4f9bc02e" />
 
 
+# Signal Integrity Test Vehicles (SITV)
 
+This project moivated me to create an SITV design to test different materials for stackups and common copper structures found in Tandem with a VNA up to the GHz range. I have a nano VNA on hand which can measure up to 1.5 GHz which is barely enough for the purpose of meausuring performance at the DDR fudamental frequency. Version 1 can be improved to include a calibration coupon so that the VNA's reference plane can be right at the PCB and not at the connector's end.
+
+| Test cases | | |
+| --- | --- | --- |
+| Description | Results |P/F|
+| Insertion loss of a 30 mm straight trace | dB | TBD |
+| Delta L test to measure loss purely due to the PCB trace | dB/in | TBD |
+| Via transitions: compare loss between 1 transition and 2 transitions | dB | TBD |
+| Crosstalk test, spacing 1: compare voltage amplitude on the victim trace at different trace spacings | dB @ f _ spacing 1 | TBD |
+| Crosstalk test, spacing 2 | dB @ f _ spacing 2 | TBD |
+| Straight trace insertion loss vs skewed trace insertion loss | dB @ 1° and 5° skew | TBD |
+
+Work in progress...
+
+<img width="1848" height="1236" alt="image" src="https://github.com/user-attachments/assets/37dba81b-376c-4ddb-a9ec-b29225a3a548" />
+
+
+<img width="1236" height="1848" alt="image" src="https://github.com/user-attachments/assets/f2132277-7972-456f-bc1d-8952d940c7b2" />
+
+Version 2 of the SITV includes more carefully designed test cases and the capability to establish the VNA reference plane right at the PCB using the SOLT calibration structures. All copper sturctures were designed to have Zo = 50 Ohms.
+
+Version 2 test cases are as below.
+
+| Test cases | | |
+| --- | --- | --- |
+| Description | Results |P/F|
+| Impedance of a straight copper trace (designed to be 50 Ohms) | Smith chart normalized to 50 Ohms | TBD |
+| Delta L test to measure loss purely due to the PCB trace | dB/in | TBD |
+| Via transitions: compare loss between 1 transition and 2 transitions | dB | TBD |
+| Crosstalk test: compare voltage amplitude on the victim trace at minimum trace spacing | dB @ different frequencies | TBD |
+| Insertion loss on the presence of stubs: noitice the effect of multiple different length stubs on the same trace | TDR measurement | TBD |
+| Serpentine mismatch: notice which serpentine structure causes the most impedance mismatch | TDR measurement | TBD |
+
+<img width="790" height="787" alt="image" src="https://github.com/user-attachments/assets/dc07dd48-09bd-43fa-8828-58d3efe11c84" />
 
