@@ -75,17 +75,51 @@ The PCB deisgn is mainly driven by the DDR Gen 3 single-ended signals and differ
 
 **Stackup selection**
 
+The standard 10L PCB build-up from PCB way was selected, as their overall pricing is cheap and their capabilities seem sufficient using their 'low difficulty to manufacture' specifications.
+
+<img width="470" height="1249" alt="image" src="https://github.com/user-attachments/assets/10b3ddf7-4f45-4a70-ad24-1cfabd29cc03" />
+
+The layer assignment goes as below, and the expected characteristic impedances obtained from it were calculated using a spreadsheet and the formulae from Hall S., Hall G. and McCall J., High Speed Digital System Design, 2001, Wiley.
+  
+<img width="1435" height="639" alt="image" src="https://github.com/user-attachments/assets/ac9d0ee5-4f5b-4ac2-a8b3-3d87c38d6255" />
 
 
 **Loss characterization**
 
+Two package models were developed for the Zync 7000, one considering a generic 25 um Au wire bond on a worst case length for the 17x17mm package and another one considering 90um C4 bumps. An online calculator was used to approximate RLC values for these structures, and the channel was simulated in QUCS.
+
+Using the 1st package model (typically used in low speed I/O)
+
+<img width="895" height="655" alt="image" src="https://github.com/user-attachments/assets/5a1fa145-b338-4501-92b0-a2f5d718b320" />
+
+Using the 2nd package model (typically used for higher speed signals)
+
+<img width="877" height="636" alt="image" src="https://github.com/user-attachments/assets/81173986-be1c-41b2-9e1c-a92797900233" />
+
+_Conclusion_
+
+-For the frequency of interest for the DDR interface (1 GHz) it is not feasible to typicall wire bond technology, as it causes that the majority of the signal's energy content is reflected back to the source at the frequency of interest. 
+
+-Assuming the Zynq 7000's package uses C4 bumps, the SPICE simulation that considers the C4 bump in series with a package via, one fan out via, the PCB trace and one last connection via shows that insertion loss is -0.498 dB and return loss is -9.659 dB.
+
+To verify if this is a feasible design, the loss budget is calculated below.
+
+| Loss budget | | |
+| --- | --- | --- |
+| Value | Unit |Note|
+| 0.675 | V |VTT|
+| 0.135 | V (above VTT) |Vhigh|
+| 0.81 | V |Vhigh|
+| 0.54 | V |Vdd-Vhigh = V_loss margin|
+| -0.9691 | dB |10*log10(V_loss margin / VTT)|
+
+Per the calculations above, singal loss of -0.498 dB is within the loss budget of -0.9691 dB, assuming the IC package uses C4 bumps.
 
 **Crosstalk estimations**
 
+To account for routing density, the potential crosstalk on the traces was evaluated using the provided IBIS models for the Zynq 7000 on Xilinx's website and a series of circuit models created to simulate cross talk and cross talk induced time delays.
 
-**Quoting**
-
-
+This is work in progress...
 
 <img width="1107" height="257" alt="image" src="https://github.com/user-attachments/assets/c36eaf12-419a-498e-9522-740d7f5a260d" />
 
