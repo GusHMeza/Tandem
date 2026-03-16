@@ -171,9 +171,9 @@ Work in progress...
 
 <img width="652" height="589" alt="image" src="https://github.com/user-attachments/assets/75926e2a-f72e-43f8-84a8-5e63babca978" />
 
-For instance, this picture shows that this structure (non impadance controller) causes -2.7 dB of loss at 450 MHz and above 600 MHz there is more energy being reflected back than proagating through it. Therefore, for a loss budget of around 2 dB, it shows that the maximum allowable frequency for such a structure is 400 MHz. The following version of the SITV will expand on these type of measurements and results are to be reported with mention of the stack up materials. 
+For instance, this picture shows that this non-impedance-controlled structure causes -2.7 dB of loss at 450 MHz and above 600 MHz there is more energy being reflected back to source than proagating through it. Therefore, for a loss budget of around 2 dB, it shows that the maximum allowable frequency for such a structure is 400 MHz. The following version of the SITV will expand on these type of measurements and results are to be reported with mention of the stack up materials. 
 
-Version 2 of the SITV includes more carefully designed test cases and the capability to establish the VNA reference plane right at the PCB using the SOLT calibration structures. All copper sturctures were designed to have Zo = 50 Ohms.
+Version 2 of the SITV includes more carefully designed test cases and the capability to establish the VNA reference plane right at the PCB using on-board SOLT calibration structures. Moreover, all copper sturctures were designed to have Zo = 50 Ohms.
 
 Version 2 test cases are as below.
 
